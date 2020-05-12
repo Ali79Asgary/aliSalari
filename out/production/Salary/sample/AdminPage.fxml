@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="1224.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminPageController">
+   <children>
+      <ImageView fitHeight="651.0" fitWidth="1224.0" layoutX="-1.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@main-page-image.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-1.0" prefHeight="62.0" prefWidth="1223.0" style="-fx-border-color: #18FFFF; -fx-border-radius: 25; -fx-border-width: 5;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Circle fx:id="close" fill="#18ffff" layoutX="1190.0" layoutY="31.0" onMouseClicked="#onClose" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="mini" fill="#18ffff" layoutX="1143.0" layoutY="31.0" onMouseClicked="#mini" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="circlePlayMusic" fill="#18ffff" layoutX="34.0" layoutY="31.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="circleStopMusic" fill="#18ffff" layoutX="81.0" layoutY="31.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <FontAwesomeIconView fx:id="fontStopMusic" fill="#424242" glyphName="PAUSE" layoutX="70.0" layoutY="39.0" onMouseClicked="#onStop" size="25" text="" />
+            <FontAwesomeIconView fx:id="fontPlayMusic" fill="#424242" glyphName="PLAY" layoutX="24.0" layoutY="39.0" onMouseClicked="#onPlay" size="25" text="" />
+            <Label alignment="CENTER" layoutX="525.0" layoutY="14.0" prefHeight="32.0" prefWidth="174.0" text="Admin Page" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane fx:id="anchor" layoutX="1.0" layoutY="76.0" prefHeight="558.0" prefWidth="1068.0" style="-fx-border-color: #18FFFF; -fx-background-radius: 30; -fx-border-radius: 25; -fx-border-width: 5; -fx-background-color: #424242;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <JFXHamburger fx:id="hamburger" layoutX="14.0" layoutY="14.0" prefHeight="36.0" prefWidth="51.0" style="-fx-background-color: #18FFFF; -fx-background-radius: 25;" />
+            <JFXDrawer fx:id="navigationDrawer" defaultDrawerSize="174.0" layoutX="9.0" layoutY="56.0" miniDrawerSize="0.0" prefHeight="487.0" prefWidth="174.0" style="-fx-background-color: #424242; -fx-background-radius: 25;" />
+            <AnchorPane fx:id="mainAnchor" layoutX="324.0" layoutY="15.0" prefHeight="538.0" prefWidth="1021.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="174.0" style="-fx-background-color: #18FFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="143.0" fitWidth="175.0" pickOnBounds="true">
+         <image>
+            <Image url="@navigation-img.jpg" />
+         </image>
+      </ImageView>
+      <Label accessibleText="HomePage" prefHeight="52.0" prefWidth="180.0" style="-fx-border-color: #424242; -fx-border-radius: 8; -fx-border-width: 3;" text="Home page">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="HOME" lineSpacing="25.0" size="25" textAlignment="CENTER" wrappingWidth="51.0" />
+         </graphic>
+      </Label>
+      <Label accessibleText="PersonalInfo" prefHeight="52.0" prefWidth="180.0" style="-fx-border-color: #424242; -fx-border-radius: 8; -fx-border-width: 3;" text="Personal info">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="USER" lineSpacing="25.0" size="25" textAlignment="CENTER" wrappingWidth="51.0" />
+         </graphic>
+      </Label>
+      <Label accessibleText="EmployeesInfo" prefHeight="52.0" prefWidth="180.0" style="-fx-border-color: #424242; -fx-border-radius: 8; -fx-border-width: 3;" text="Employees info">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="LIST" lineSpacing="25.0" size="25" textAlignment="CENTER" wrappingWidth="51.0" />
+         </graphic>
+      </Label>
+      <Label accessibleText="ConstantFields" prefHeight="52.0" prefWidth="180.0" style="-fx-border-color: #424242; -fx-border-radius: 8; -fx-border-width: 3;" text="Constant fields">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView glyphName="PENCIL" lineSpacing="25.0" size="25" textAlignment="CENTER" wrappingWidth="51.0" />
+         </graphic>
+      </Label>
+   </children>
+</VBox>

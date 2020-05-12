@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="1021.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="538.0" prefWidth="1021.0" style="-fx-background-color: #424242; -fx-background-radius: 25;">
+         <children>
+            <Label alignment="CENTER" layoutX="100.0" layoutY="87.0" prefHeight="47.0" prefWidth="176.0" text="First name" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="100.0" layoutY="134.0" prefHeight="47.0" prefWidth="176.0" text="Last name" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="100.0" layoutY="181.0" prefHeight="47.0" prefWidth="176.0" text="Father name" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="100.0" layoutY="228.0" prefHeight="47.0" prefWidth="176.0" text="National Id" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="100.0" layoutY="275.0" prefHeight="47.0" prefWidth="176.0" text="Phone number" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="511.0" layoutY="87.0" prefHeight="47.0" prefWidth="176.0" text="Personnel Id" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="511.0" layoutY="134.0" prefHeight="47.0" prefWidth="176.0" text="Password" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="511.0" layoutY="181.0" prefHeight="47.0" prefWidth="176.0" text="Marital status" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="511.0" layoutY="228.0" prefHeight="47.0" prefWidth="176.0" text="Children number" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="511.0" layoutY="275.0" prefHeight="47.0" prefWidth="176.0" text="Degree of education" textFill="#18ffff">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
